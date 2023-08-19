@@ -1,0 +1,343 @@
+
+
+   .about-us-image{width: 100%;height: 28em;position: relative;}
+   .about-us-image img{width: 100%;object-fit: cover;height: 100%;}
+
+@media (max-width:500px)
+{
+    .about-us-image{height: 16em;}
+    .about-us-image img{object-fit: contain;margin-top: 6%;}
+    .first-div-text{position: relative;top: -2.5em;}
+    .about-us-image .about{font-size: 1.6em;bottom: 14%;}
+}
+
+@media (max-width:400px)
+{
+    .about-us-image{height: 16em;}
+    .about-us-image img{object-fit: contain;}
+    .first-div-text{position: relative;top: -3.4em;}
+    .about-us-image .about{font-size: 1.6em;bottom: 20%;}
+    .second-div-text{top: -4em;position: relative;}
+    .flesh-picture{width: 26em;
+        border-radius: 10px;height: 20em;
+        margin: 4% 4%;}
+        .third-div .card{width: 13em;height: 18em;}
+        .third-div .card i{font-size: 20px;}
+        .third-div-box .third-div .h4{font-size: 1.2rem;}
+        .misson-img{top: -4em;
+        position: relative;}
+        .our-mission p{top: -3em;position: relative;}
+}
+
+
+
+.about{font-size: 3em;
+    font-weight: 600;
+    bottom: 0;
+    text-transform: uppercase;
+    color: white;padding: 2%;
+    position: absolute;}
+
+   .first-div-text{background-color: rgb(221, 222, 241);
+display: flex;justify-content: center;padding: 6%;
+font-size:1em;
+margin: 4% 4%;
+line-height: 1.6em;
+text-transform: lowercase;
+font-family:sans-serif;
+word-spacing: 0.1em;
+
+}
+
+
+
+
+
+.second-div-text{justify-content: center;
+    align-items: center;
+    gap: 2%;
+    flex-wrap: wrap;
+    
+    width: 100%;display: flex;
+}
+
+.second-div-text p{width: 40em;
+    text-transform: lowercase;
+    border-radius: 4px;
+    box-shadow: 4px 4px 16px;
+    margin: 3% 4%;
+    padding: 4%;
+    transition: 0.1s;
+    background-color: rgb(230, 229, 239);}
+    .second-div-text p:hover{transform: scale(0.99);}
+
+.flesh-picture{width: 26em;
+border-radius: 10px;
+height: 22em;
+margin: 4% 4%;}
+
+.flesh-picture:hover{
+    box-shadow: 2px 2px 16px;
+transform: scale(0.99);}
+
+.flesh-picture img{object-fit: fill;
+    height: 100%;border-radius: 10px;
+    width: 100%;}
+
+
+
+
+
+/* text span title mission vission togeather  */
+
+
+
+.text-mission:hover{transform: scale(0.99);}
+
+.our-mission{width: 100%;display: flex;
+    flex-wrap:wrap ;
+    margin-top:2em ;
+    justify-content: space-around;
+    align-items: center;}
+
+.misson-img{width: 26em;
+    border-radius: 10px;
+    margin: 0 4%;
+height: 22em;   
+}
+.misson-img img{width: 100%;height: 100%;
+    border-radius: 10px;
+}
+
+.misson-img:hover{
+    box-shadow: 2px 2px 16px;
+    transform: scale(0.99);}
+
+
+.our-mission p{width: 40em;
+    padding: 4%;
+    margin: 2% 4%;
+    box-shadow: 2px 2px 16px;
+    border-radius: 10px;
+    background-color:rgb(230, 229, 239);}
+
+
+
+
+
+
+
+
+
+
+
+.Corporate{font-size: 1.2em;
+padding: 4% 12%;
+word-spacing: 0.2em;
+font-family: arial;
+text-transform: lowercase;
+}
+
+
+
+.svg-section{width: 100%;
+    
+    flex-wrap: wrap;
+    gap:2% ;
+    margin: 4% 2%;
+    display: flex;justify-content: center;}
+
+
+
+    .svg-section div{background-color: aliceblue;
+    display: flex;justify-content: center;
+    align-items: center;
+    width: 20em;
+    margin: 2% 1%;
+    flex-wrap: wrap;
+    height:20em ;
+    border-radius: 50%;
+    flex-direction: column;
+    box-shadow: 0px 0px 20px;    
+}
+
+    .svg-section div:hover{box-shadow: 0px 0px 20px blue;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.third-div-box{width: 100%;
+display: flex;
+background-color:rgb(240, 239, 239);
+justify-content: center;}
+
+.third-div{
+    margin: 2% 2%;
+    background-color: aliceblue;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    
+    scroll-snap-type:x mandatory;
+    width: 58%;
+display: flex;
+gap: 4px;}
+
+
+
+
+
+
+/* WebKit-specific scrollbar styling */
+.third-div::-webkit-scrollbar {
+    width: 2px;
+    height: 6px;
+  }
+
+  .third-div::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+
+  .third-div::-webkit-scrollbar-thumb {
+    background-color: #0077ff;
+    border-radius: 5px;
+    width: 1px;
+    height: 10px;
+  }
+
+
+
+    .card{width: 17.1rem;
+    background-color: rgb(255, 255, 255);flex-shrink: 0;
+    scroll-snap-align: start;
+padding: 2px 4px;
+    
+}
+
+
+    .first-part{
+        position: relative;
+        background-color:#008cff;
+        height: 50%;
+        border-radius: 20px 20px 0px 20px;
+        display: flex;justify-content: center;
+    }
+
+    .over::before,
+    .over::after
+    {width: 30px;
+    height: 30px;
+content: '';
+position: absolute;
+right: 0;
+bottom: -30px;
+background-color: #008cff;}
+
+.over::after{
+    border-radius: 0px 20px 0px 0px;
+    background-color:white;
+}
+
+
+    .image-box{
+    height: 100%;
+    
+    }
+
+    .image-box img{
+        
+        border-radius: 50%;
+        width: 100%;height: 100%;}
+
+
+
+        .second-part{display: flex;
+            background-color: white;
+        flex-direction: column;
+    align-items: center;
+padding-top:4%;}
+
+.second-part p{padding: 2%;}
+.second-part .h4{font-size: 1.4rem;
+font-weight: 600;
+font-family: Times New Roman;
+}
+
+.second-part i{font-size: 3rem;
+padding: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

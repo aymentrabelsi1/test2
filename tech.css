@@ -1,0 +1,20 @@
+.main-div{width: 100%;height: 100%;}
+.main-div img{width: 100%;}
+
+
+
+
+
+
+
+.third-div{width: 100%;display: flex;
+justify-content: center;
+align-items: center;height: 20em;}
+
+.third-div div{width: 20em;}
+
+
+
+
+.fourth-div{display: flex;}
+.fourth-div p{width: 50%;}
